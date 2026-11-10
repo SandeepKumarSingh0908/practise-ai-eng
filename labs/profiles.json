@@ -1,0 +1,9 @@
+{
+  "main": {
+    "base_url": "http://localhost:11434/v1",
+    "api_key_env": "LLM_API_KEY",
+    "model": "qwen2.5:7b",
+    "price_in_per_m": 0.0,
+    "price_out_per_m": 0.0
+  }
+}
