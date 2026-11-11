@@ -19,4 +19,9 @@
 - input tokens are way cheaper than the output ones because of the computation and resource consumption.
 - What amazed me is two things -:
   - Firstly how loading a 80 mb pdf and giving 3 relevant page from pdf, can drastically impact the quality of output.
-  - Billing is done on the output token, And prompting with code snippets,hindi lang, table or something which is not well covered by the tokenizer vocab, can impact the cost. 
+  - Billing is done on the output token, And prompting with code snippets,hindi lang, table or something which is not well covered by the tokenizer vocab, can impact the cost.
+
+#Day-3
+- Learned about images, audio support as input by these LLM's, although eventually they get trimmed down token.
+- Intresting fact i came across is given these amazing support of images and audios, there comes an extra layer of pre-cautions like it can cost more (so crop and keep only relevant, prefer text over images and trascribe over audio unless you need the tone ad emotion to get captured by LLM, always check does our model is text or vision model too, because beig text model OCR process is involved and if image is not of high quality then data will be corrupted even before it reaches the model.
+- Intresting scripts is there in day03 lab. 
