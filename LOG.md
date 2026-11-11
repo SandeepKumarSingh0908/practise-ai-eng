@@ -12,4 +12,11 @@
 #Day-1
 - Learned about how LLM works at a very high level and produces output.
 - Tried prompting same question multiple times and got different types of token everytime explaining or answering the same thing.
-- What amazed me is how a totally false question can be answered by a model in pretty confident tone, which confirms there is no fact check at real time, if question is pretty niche, or less likely to be appeared in training data set. 
+- What amazed me is how a totally false question can be answered by a model in pretty confident tone, which confirms there is no fact check at real time, if question is pretty niche, or less likely to be appeared in training data set.
+
+#Day-2
+- Learned about tokens
+- input tokens are way cheaper than the output ones because of the computation and resource consumption.
+- What amazed me is two things -:
+  - Firstly how loading a 80 mb pdf and giving 3 relevant page from pdf, can drastically impact the quality of output.
+  - Billing is done on the output token, And prompting with code snippets,hindi lang, table or something which is not well covered by the tokenizer vocab, can impact the cost. 
